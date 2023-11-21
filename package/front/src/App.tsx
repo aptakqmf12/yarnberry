@@ -6,8 +6,7 @@ function App() {
   const [text, setText] = useState("");
   return (
     <>
-      <div>hi22!</div>
-      <CommonButton>버튼</CommonButton>
+      <CommonButton>이건 웹버튼</CommonButton>
       <CommonInput value={text} setValue={setText} />
     </>
   );

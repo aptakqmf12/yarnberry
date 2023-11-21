@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 
 export interface InputProps {
   value: string;
-  setValue?: (v: string) => void;
+  setValue: (v: string) => void;
   type?: "under-line" | "out-line" | "fill";
 }
 

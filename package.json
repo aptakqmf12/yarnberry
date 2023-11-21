@@ -7,7 +7,9 @@
   "scripts": {
     "start:common": "yarn workspace @monorepo/common start",
     "dev:front": "yarn workspace @monorepo/front dev",
-    "build:front": "yarn workspace @monorepo/front build"
+    "build:front": "yarn workspace @monorepo/front build",
+    "dev:app": "yarn workspace @monorepo/application dev",
+    "build:app": "yarn workspace @monorepo/application build"
   },
   "packageManager": "yarn@4.0.2",
   "devDependencies": {

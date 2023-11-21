@@ -30,6 +30,17 @@ const StyledButton = styled.button<{ type: "primary" | "line" | "gray" }>`
       : type === "gray"
         ? "#eee"
         : type === "line"
-          ? "#fff"
+          ? "transparent"
           : "#fff"};
+
+  color: ${({ type }) =>
+    type === "primary"
+      ? "#fff"
+      : type === "gray"
+        ? "#000"
+        : type === "line"
+          ? "#000"
+          : "#000"};
+
+  border: ${({ type }) => type === "line" && "1px black solid"};
 `;

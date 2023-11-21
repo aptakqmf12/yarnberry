@@ -576,6 +576,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monorepo/application@workspace:package/application":
+  version: 0.0.0-use.local
+  resolution: "@monorepo/application@workspace:package/application"
+  dependencies:
+    "@monorepo/common": "workspace:*"
+    "@types/react": "npm:^18.2.37"
+    "@types/react-dom": "npm:^18.2.15"
+    "@typescript-eslint/eslint-plugin": "npm:^6.10.0"
+    "@typescript-eslint/parser": "npm:^6.10.0"
+    "@vitejs/plugin-react": "npm:^4.2.0"
+    eslint: "npm:^8.53.0"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-react-refresh: "npm:^0.4.4"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+    vite: "npm:^5.0.0"
+  languageName: unknown
+  linkType: soft
+
 "@monorepo/common@workspace:*, @monorepo/common@workspace:package/common":
   version: 0.0.0-use.local
   resolution: "@monorepo/common@workspace:package/common"
