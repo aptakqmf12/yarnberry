@@ -1,11 +1,9 @@
 {
   "name": "@monorepo/yarnberry",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "package/*"
-    ]
-  },
+  "workspaces": [
+    "package/*"
+  ],
   "scripts": {
     "start:common": "yarn workspace @monorepo/common start",
     "dev:front": "yarn workspace @monorepo/front dev",
@@ -17,5 +15,9 @@
     "eslint": "^8.54.0",
     "prettier": "^3.1.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.31",
+    "styled-components": "^6.1.1"
   }
 }
